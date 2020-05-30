@@ -11,13 +11,14 @@ callMe();
 
 function crazy() {
   // fix the code in here:
-  var thisIsCrazy = function(){
+  return function(){
     console.log("hey!!!");
   }
 }
 
-var x = crazy()
-x;
+var thisIsCrazy = crazy()
+thisIsCrazy();
+
 
 function sayMyName() {
   // fix the code in here:
