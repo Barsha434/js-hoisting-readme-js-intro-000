@@ -9,15 +9,13 @@ function callMe() {
 }
 
 
-function crazy() {
-  // fix the code in here:
-  return {
-     thisIsCrazy (){
+function crazy(){
+  return thisIsCrazy (){
     console.log("hey!!!")
   }
 }
 crazy();
-}
+
 
 
 function sayMyName() {
