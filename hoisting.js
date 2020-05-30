@@ -7,7 +7,6 @@ function callMe() {
    return lyric;
 
 }
-callMe();
 
 function crazy() {
   // fix the code in here:
@@ -16,7 +15,7 @@ function crazy() {
     console.log("hey!!!")
   }
 }
-function();
+thisIsfunction();
 
 
 function sayMyName() {
