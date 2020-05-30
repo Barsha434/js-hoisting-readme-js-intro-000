@@ -12,10 +12,10 @@ callMe();
 function crazy() {
   // fix the code in here:
   return function(){
-    return "hey!!!"
+    console.log("hey!!!");
   }
 }
-crazy()()
+crazy()
 
 
 function sayMyName() {
