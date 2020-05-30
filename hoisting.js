@@ -12,7 +12,7 @@ callMe();
 function crazy() {
   // fix the code in here:
   return function(){
-    console.log("hey!!!")
+    return "hey!!!"
   }
 }
 crazy()()
